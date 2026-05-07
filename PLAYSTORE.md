@@ -1,6 +1,6 @@
 # Play Store Listing
 
-Google Play Console listing copy for Fud AI Android (current: v1.0.10 / versionCode 13). Each field is in a code block for easy copy-paste. Char counts are tracked because Play Console enforces hard caps and silently truncates anything over.
+Google Play Console listing copy for Fud AI Android (current: v1.0.11 / versionCode 14). Each field is in a code block for easy copy-paste. Char counts are tracked because Play Console enforces hard caps and silently truncates anything over.
 
 **Where to paste each field in Play Console:**
 - App name / Short description / Full description → Grow → Store presence → **Main store listing** (default English) and Grow → Store presence → **Custom store listings** → Manage translations (per-language overrides)
@@ -38,9 +38,9 @@ Snap, speak, or type a meal. AI logs the calories. Open source.
 ```
 Fud AI makes calorie tracking effortless with AI-powered food recognition. Snap a photo, speak it, or type it — get instant nutrition: calories, protein, carbs, fats, and 9 micronutrients.
 
-NEW in v1.0.10: Theme color launchers are more reliable after switching colors, and the cold-start splash better matches the selected color.
+NEW in v1.0.11: Fud AI Plus is now on Android for no-key Gemini food scans, voice, and Coach. Bring Your Own Key remains available by default, and existing users get a one-time option to try Plus or keep BYOK.
 
-Free, open source, privacy-first. Bring your own API key. All data stays on your device.
+Free, open source, privacy-first. Bring your own API key, or choose optional Fud AI Plus for no-key setup. Your food log stays on your device.
 
 HOW TO USE
 1) Set up your profile with goals + body stats
@@ -104,84 +104,99 @@ English-only on Play Console — non-English Play Store browsers (ar, az-AZ, de-
 
 ---
 
-## 4. What's New (v1.0.10)
+## 4. What's New (v1.0.11)
 
 **500 char hard cap per language.** Paste the entire block below into Play Console's "Release notes" field — it auto-routes each `<lang-tag>` block to the matching locale.
 
 ```
 <en-US>
-• Theme color launcher switching is more reliable after changing colors.
-• Cold start splash better matches the selected launcher color.
+• Fud AI Plus is now on Android: no-key Gemini food scans, voice, and Coach.
+• BYOK stays available by default, with a one-time Plus intro for existing users.
+• Added Plus usage counters, restore, and Settings controls.
 </en-US>
 
 <ar>
-• تبديل لون أيقونة التشغيل أصبح أكثر موثوقية بعد تغيير اللون.
-• شاشة البدء أصبحت تطابق لون الأيقونة المختار بشكل أفضل.
+• أصبح Fud AI Plus متاحًا على Android لمسح الطعام والصوت والمدرب بدون مفتاح API.
+• يبقى BYOK متاحًا افتراضيًا، مع تعريف Plus مرة واحدة للمستخدمين الحاليين.
+• تمت إضافة عدادات استخدام Plus والاستعادة والتحكم من الإعدادات.
 </ar>
 
 <az-AZ>
-• Rəng dəyişəndən sonra launcher rəng keçidi daha etibarlıdır.
-• Soyuq başlanğıc ekranı seçilmiş launcher rənginə daha yaxşı uyğunlaşır.
+• Fud AI Plus Android-də açarsız Gemini qida skanı, səs və Coach üçün gəldi.
+• BYOK defolt olaraq qalır, mövcud istifadəçilərə Plus bir dəfə göstərilir.
+• Plus istifadə sayğacları, bərpa və ayar idarələri əlavə edildi.
 </az-AZ>
 
 <de-DE>
-• Der Launcher-Farbwechsel ist nach Änderungen zuverlässiger.
-• Der Kaltstart-Splash passt besser zur gewählten Launcher-Farbe.
+• Fud AI Plus ist jetzt auf Android: Gemini ohne API-Key für Food-Scans, Sprache und Coach.
+• BYOK bleibt standardmäßig verfügbar, mit einmaligem Plus-Hinweis für bestehende Nutzer.
+• Plus-Nutzung, Wiederherstellen und Einstellungen wurden ergänzt.
 </de-DE>
 
 <es-ES>
-• El cambio de color del launcher es más fiable tras cambiarlo.
-• El splash de inicio coincide mejor con el color elegido.
+• Fud AI Plus llega a Android: Gemini sin clave para comida, voz y Coach.
+• BYOK sigue disponible por defecto, con aviso único de Plus para usuarios existentes.
+• Añadidos contadores de uso, restauración y controles de Plus.
 </es-ES>
 
 <fr-FR>
-• Le changement de couleur du launcher est plus fiable.
-• L'écran de démarrage correspond mieux à la couleur choisie.
+• Fud AI Plus arrive sur Android : Gemini sans clé pour repas, voix et Coach.
+• BYOK reste disponible par défaut, avec une intro Plus unique pour les utilisateurs existants.
+• Ajout des compteurs d'utilisation, restauration et contrôles Plus.
 </fr-FR>
 
 <hi-IN>
-• Color बदलने के बाद launcher color switching अब ज्यादा reliable है.
-• Cold start splash अब selected launcher color से बेहतर match करता है.
+• Fud AI Plus अब Android पर है: बिना API key Gemini food scan, voice और Coach.
+• BYOK default रहेगा, existing users को Plus का one-time intro मिलेगा.
+• Plus usage counters, restore और Settings controls जोड़े गए.
 </hi-IN>
 
 <it-IT>
-• Il cambio colore del launcher è più affidabile dopo le modifiche.
-• Lo splash iniziale segue meglio il colore scelto.
+• Fud AI Plus arriva su Android: Gemini senza chiave per cibo, voce e Coach.
+• BYOK resta disponibile di default, con intro Plus una sola volta per gli utenti esistenti.
+• Aggiunti contatori uso Plus, ripristino e controlli in Impostazioni.
 </it-IT>
 
 <ja-JP>
-• 色変更後のランチャーカラー切り替えがより安定しました。
-• コールドスタートのスプラッシュが選択色により近くなりました。
+• Fud AI Plus が Android に対応し、APIキーなしで Gemini の食事解析・音声・Coach が使えます。
+• BYOK は引き続き標準で利用でき、既存ユーザーには Plus の案内を一度だけ表示します。
+• Plus の使用量、復元、設定コントロールを追加しました。
 </ja-JP>
 
 <ko-KR>
-• 색상 변경 후 런처 색상 전환이 더 안정적입니다.
-• 콜드 스타트 스플래시가 선택한 색상과 더 잘 맞습니다.
+• Fud AI Plus가 Android에 추가되어 API 키 없이 Gemini 음식 분석, 음성, Coach를 사용할 수 있습니다.
+• BYOK는 기본으로 유지되며 기존 사용자에게 Plus 안내를 한 번 표시합니다.
+• Plus 사용량, 복원, 설정 제어를 추가했습니다.
 </ko-KR>
 
 <nl-NL>
-• Launcher-kleur wisselt betrouwbaarder na kleurwijzigingen.
-• De koude-start splash past beter bij de gekozen kleur.
+• Fud AI Plus is nu op Android: Gemini zonder API-key voor eten, spraak en Coach.
+• BYOK blijft standaard beschikbaar, met een eenmalige Plus-intro voor bestaande gebruikers.
+• Plus-gebruik, herstellen en instellingen toegevoegd.
 </nl-NL>
 
 <pt-BR>
-• A troca de cor do launcher ficou mais confiável.
-• A tela de abertura combina melhor com a cor escolhida.
+• Fud AI Plus chegou ao Android: Gemini sem chave para comida, voz e Coach.
+• BYOK continua disponível por padrão, com aviso único de Plus para usuários atuais.
+• Adicionados contadores de uso, restauração e controles do Plus.
 </pt-BR>
 
 <ro>
-• Schimbarea culorii launcherului este mai fiabilă.
-• Splash-ul la pornire se potrivește mai bine cu culoarea aleasă.
+• Fud AI Plus este acum pe Android: Gemini fără cheie pentru mâncare, voce și Coach.
+• BYOK rămâne disponibil implicit, cu o introducere Plus unică pentru utilizatorii existenți.
+• Am adăugat contoare de utilizare, restaurare și controale Plus.
 </ro>
 
 <ru-RU>
-• Переключение цвета launcher стало надежнее после смены цвета.
-• Экран холодного старта лучше совпадает с выбранным цветом.
+• Fud AI Plus теперь на Android: Gemini без API-ключа для еды, голоса и Coach.
+• BYOK остается доступным по умолчанию, с одноразовым знакомством с Plus для текущих пользователей.
+• Добавлены счетчики Plus, восстановление и настройки.
 </ru-RU>
 
 <zh-CN>
-• 更改颜色后，启动器颜色切换更可靠。
-• 冷启动画面更贴近所选启动器颜色。
+• Fud AI Plus 已支持 Android：无需 API key 即可使用 Gemini 食物扫描、语音和 Coach。
+• BYOK 仍默认可用，现有用户会看到一次 Plus 介绍。
+• 新增 Plus 用量计数、恢复购买和设置控制。
 </zh-CN>
 ```
 
